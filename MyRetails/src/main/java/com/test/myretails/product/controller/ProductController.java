@@ -36,7 +36,7 @@ public class ProductController {
 
     @GetMapping("/{productId}")
     @ResponseBody
-    public ResposeDTO getByPruductId(@PathVariable Integer productId) throws Exception {
+    public ResposeDTO getByPruductId(@PathVariable Integer productId)  {
         ResposeDTO resposeDTO = new ResposeDTO();
         resposeDTO.setSuccess(true);
         try {
